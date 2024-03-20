@@ -10,7 +10,7 @@ module.exports = {
                 first_name: req.body.first_name,
                 last_name: req.body.last_name,
                 gender: req.body.gender,
-            }
+            } 
 
             const addStudent = await student.create(info)
 
